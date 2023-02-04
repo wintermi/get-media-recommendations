@@ -1,0 +1,20 @@
+[
+  {
+    "eventType": "view-item",
+    "userPseudoId": "1",
+    "documents": [
+      {
+        "id": "0598"
+      }
+    ]
+  },
+  {
+    "eventType": "view-item",
+    "userPseudoId": "2",
+    "documents": [
+      {
+        "id": "0986"
+      }
+    ]
+  }
+]
