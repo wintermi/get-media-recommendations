@@ -21,8 +21,8 @@ import (
 	"os"
 	"path/filepath"
 
-	discoveryengine "cloud.google.com/go/discoveryengine/apiv1alpha"
-	discoveryenginepb "google.golang.org/genproto/googleapis/cloud/discoveryengine/v1alpha"
+	discoveryengine "cloud.google.com/go/discoveryengine/apiv1beta"
+	discoveryenginepb "cloud.google.com/go/discoveryengine/apiv1beta/discoveryenginepb"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/structpb"
 )
