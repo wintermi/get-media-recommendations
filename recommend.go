@@ -103,8 +103,9 @@ func (recommendation *Recommendation) ExecuteRequests() error {
 			PageSize:      recommendation.PageSize,
 			Filter:        recommendation.Filter,
 			ValidateOnly:  false,
-			Params:        make(map[string]*structpb.Value, 2),
+			Params:        make(map[string]*structpb.Value, 3),
 		}
+		request.Params["strictFiltering"] = structpb.NewBoolValue(true)
 		request.Params["returnDocument"] = structpb.NewBoolValue(true)
 		request.Params["returnScore"] = structpb.NewBoolValue(true)
 
