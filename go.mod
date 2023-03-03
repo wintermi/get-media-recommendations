@@ -2,10 +2,8 @@ module github.com/wintermi/get-media-recommendations
 
 go 1.19
 
-replace cloud.google.com/go/discoveryengine => ./discoveryengine
-
 require (
-	cloud.google.com/go/discoveryengine v0.0.0-00010101000000-000000000000
+	cloud.google.com/go/discoveryengine v0.1.0
 	github.com/rs/zerolog v1.29.0
 	google.golang.org/protobuf v1.28.1
 )
