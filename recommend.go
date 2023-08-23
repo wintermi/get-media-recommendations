@@ -105,6 +105,7 @@ func (recommendation *Recommendation) ExecuteRequests() error {
 			ValidateOnly:  false,
 			Params:        make(map[string]*structpb.Value, 3),
 		}
+		request.Params["disableFallback"] = structpb.NewBoolValue(true)
 		request.Params["strictFiltering"] = structpb.NewBoolValue(true)
 		request.Params["returnDocument"] = structpb.NewBoolValue(true)
 		request.Params["returnScore"] = structpb.NewBoolValue(true)
