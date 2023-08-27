@@ -1,6 +1,6 @@
 # Get Media API Recommendations
 
-[![Workflows](https://github.com/wintermi/get-media-recommendations/workflows/go.yaml/badge.svg)](https://github.com/wintermi/get-media-recommendations/actions)
+[![Workflows](https://github.com/wintermi/get-media-recommendations/workflows/Go/badge.svg)](https://github.com/wintermi/get-media-recommendations/actions)
 [![Go Report](https://goreportcard.com/badge/github.com/wintermi/get-media-recommendations)](https://goreportcard.com/report/github.com/wintermi/get-media-recommendations)
 [![License](https://img.shields.io/github/license/wintermi/get-media-recommendations.svg)](https://github.com/wintermi/get-media-recommendations/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/wintermi/get-media-recommendations?include_prereleases)](https://github.com/wintermi/get-media-recommendations/releases)
